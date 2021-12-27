@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.post {
+    width: 420px;
+    background-color: #FFF;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 18px;
+}
+
+.post-header--left {
+    display: flex;
+    align-items: center;
+}
+
+.post-header--left > i {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.post-header--right {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.post-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.post-user {
+    font-size: 16px;
+    margin: 0;
+}
+
+.post-title, .post-user{
+    font-size: 14px;
+}
+
+.post-img > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post-body {
+    padding: 16px 18px;
+}
+
+.post-body--interactions {
+    font-size: 1.6rem;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.post-body--interactions > i {
+    margin-right: 10px;
+}
+
+.post-body--interactions > i:last-child {
+    margin-left: auto;
+    margin-right: 0;
+}
+
